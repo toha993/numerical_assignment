@@ -8,7 +8,7 @@ function res=false(f,a,b)
   for i=2:1:25
     if fa(i-1)*fc(i-1) < 0,
       A(i)=A(i-1);
-      B(i)=B(i-1);
+      B(i)=C(i-1);
     else
       A(i)=C(i-1);
       B(i)=B(i-1);
